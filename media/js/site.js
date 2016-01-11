@@ -24,6 +24,7 @@ function appendItem()
         input.remove();
         close.remove();
         br.remove();
+        item.focus();
         return false;
     });
 
